@@ -1,8 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "RWBY Requiem/Audio/Audio Clip Group", fileName = "New Audio Clip Group")]
+[CreateAssetMenu(menuName = "Values/Audio/Audio Clip Group", fileName = "New Audio Clip Group")]
 public class AudioClipGroup : ScriptableObject {
 
     public AudioClip[] AudioClips;
